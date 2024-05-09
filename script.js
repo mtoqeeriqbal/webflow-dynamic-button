@@ -16,12 +16,12 @@ function isInBusinessHours() {
 }
 
 // Get the button element (replace with your button's ID)
-const button = document.getElementById('dynamic-button');
+const button = document.getElementById('your-button-id');
 
 if (isInBusinessHours()) {
   button.textContent = 'Call Now';
-  button.href = 'tel:480-445-9240'; // Replace with your phone number
+  button.href = 'tel:+1-your-phone-number'; // Replace with your phone number
 } else {
   button.textContent = 'Contact Us';
-  button.href = '/contact'; // Replace with your form link
+  button.href = '/your-form-link'; // Replace with your form link
 }
